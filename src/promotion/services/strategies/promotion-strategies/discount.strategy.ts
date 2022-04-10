@@ -1,9 +1,9 @@
 import { InjectRepository } from "@nestjs/typeorm";
 import { CartProduct } from "src/cart/entities/cart-product.entity";
 import { Cart } from "src/cart/entities/cart.entity";
+import { PromotionDiscount } from "src/promotion/entities/promotion-discount";
+import { Promotion } from "src/promotion/entities/promotion.entity";
 import { Repository } from "typeorm";
-import { PromotionDiscount } from "../../entities/promotion-discount";
-import { Promotion } from "../../entities/promotion.entity";
 import { IPromotionApplyStrategy } from "./ipromotion-strategy";
 
 export class DiscountStrategy implements IPromotionApplyStrategy<Cart> {
