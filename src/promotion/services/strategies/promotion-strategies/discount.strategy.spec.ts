@@ -1,11 +1,11 @@
 import { Test, TestingModule } from "@nestjs/testing";
 import { getRepositoryToken } from "@nestjs/typeorm";
-import { cartProductMock } from "./__mocks/cart-product.mock";
-import { promotionMock } from "./__mocks/promotion.mock";
+import { PromotionDiscount } from "src/promotion/entities/promotion-discount";
 import { DiscountStrategy } from "./discount.strategy";
-import { promotionDiscountMock } from "./__mocks/promotion-discount.mock";
+import { cartProductMock } from "./__mocks/cart-product.mock";
 import { cartMock } from "./__mocks/cart.mock";
-import { PromotionDiscount } from "../../entities/promotion-discount";
+import { promotionDiscountMock } from "./__mocks/promotion-discount.mock";
+import { promotionMock } from "./__mocks/promotion.mock";
 
 describe('DiscountStrategy', () => {
   let strategy: DiscountStrategy;

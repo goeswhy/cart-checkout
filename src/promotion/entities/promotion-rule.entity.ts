@@ -2,7 +2,7 @@ import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 import { Promotion } from "./promotion.entity";
 
 export enum PromotionRuleType {
-  MIN_BUY = 'min-buy',
+  MIN_QTY = 'min-qty',
 }
 
 @Entity()

@@ -1,7 +1,7 @@
 import { Test, TestingModule } from "@nestjs/testing";
 import { getRepositoryToken } from "@nestjs/typeorm";
-import { PromotionFreeProduct } from "../../entities/promotion-free-product";
-import { PromotionStrategy } from "../../entities/promotion.entity";
+import { PromotionFreeProduct } from "src/promotion/entities/promotion-free-product";
+import { PromotionStrategy } from "src/promotion/entities/promotion.entity";
 import { FreeProductStrategy } from "./free-product.strategy";
 import { cartProductMock } from "./__mocks/cart-product.mock";
 import { cartMock } from "./__mocks/cart.mock";

@@ -2,8 +2,8 @@ import { Injectable } from "@nestjs/common";
 import { CartProduct } from "src/cart/entities/cart-product.entity";
 import { Cart } from "src/cart/entities/cart.entity";
 import { Promotion, PromotionStrategy } from "../entities/promotion.entity";
-import { DiscountStrategy } from "./strategies/discount.strategy";
-import { FreeProductStrategy } from "./strategies/free-product.strategy";
+import { DiscountStrategy } from "./strategies/promotion-strategies/discount.strategy";
+import { FreeProductStrategy } from "./strategies/promotion-strategies/free-product.strategy";
 
 @Injectable()
 export class PromotionStrategyResolver {
