@@ -1,4 +1,4 @@
-import { PromotionDiscount } from "src/promotion/entities/promotion-discount";
+import { PromotionDiscount } from "src/promotion/entities/promotion-discount.entity";
 
 export const promotionDiscountMock: PromotionDiscount = {
   id: 1,

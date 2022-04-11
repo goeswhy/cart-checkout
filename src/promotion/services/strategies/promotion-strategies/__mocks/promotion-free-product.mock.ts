@@ -1,4 +1,4 @@
-import { PromotionFreeProduct } from "src/promotion/entities/promotion-free-product";
+import { PromotionFreeProduct } from "src/promotion/entities/promotion-free-product.entity";
 import { productMock } from "./cart-product.mock";
 
 export const promotionFreeProductMock: PromotionFreeProduct = {

@@ -1,7 +1,7 @@
 import { InjectRepository } from "@nestjs/typeorm";
 import { CartProduct } from "src/cart/entities/cart-product.entity";
 import { Cart } from "src/cart/entities/cart.entity";
-import { PromotionDiscount } from "src/promotion/entities/promotion-discount";
+import { PromotionDiscount } from "src/promotion/entities/promotion-discount.entity";
 import { Promotion } from "src/promotion/entities/promotion.entity";
 import { Repository } from "typeorm";
 import { IPromotionApplyStrategy } from "./ipromotion-strategy";
