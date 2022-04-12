@@ -18,4 +18,8 @@ $ npm run start
 
 To run tests
 ```bash
+npm run test
 ```
+
+## Swagger doc
+After app start it can be accessible through : http://localhost:3000/api
